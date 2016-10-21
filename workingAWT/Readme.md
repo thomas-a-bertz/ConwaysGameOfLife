@@ -4,10 +4,17 @@ This version has the following properties:
 - it has a console output
 - it has a suite of tests
 
-Compile and Run
----------------
+Compile
+-------
+- ```mkdir bin```
 - ```cd src```
-- ```javac Board.java```
-- ```javac Game.java```
+- ```javac -d ../bin/ Board.java```
+- ```javac -d ../bin/ Game.java```
+- ```cd ..```
+
+Run
+---
+- ```cd bin/```
 - ```java -cp . Game```
+- ```cd ..```
 
